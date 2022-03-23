@@ -98,9 +98,17 @@
     <Content Include="assets\img\team\3.jpg" />
     <Content Include="assets\img\video.gif" />
     <Content Include="assets\js\agency.js" />
+    <Content Include="bk.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bk.aspx.cs">
+      <DependentUpon>bk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bk.aspx.designer.cs">
+      <DependentUpon>bk.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
