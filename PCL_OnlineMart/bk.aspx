@@ -44,14 +44,16 @@
 
         <asp:Label ID="Label10" runat="server" Text="Rating"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox><br /><br />
+        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+        
+        <br /><br />
 
         <asp:Label ID="Label11" runat="server" Text="Product_Category"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Save" />
+        <asp:Button ID="Button1" runat="server" Text="Save" OnClick="Button1_Click" />
         <br /><br />
     </form>
 </body>
