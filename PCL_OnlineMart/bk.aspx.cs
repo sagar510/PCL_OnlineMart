@@ -22,7 +22,7 @@ namespace PCL_OnlineMart
             using (SqlConnection con = new SqlConnection(CS))
             {
 
-                SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[Products]
+               /* SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[Products]
            ([PID]
            ,[Product_Name]
            ,[Product_Image_Name]
@@ -43,7 +43,7 @@ namespace PCL_OnlineMart
            ,<Delivery_Amount, varchar(50),>
            ,<Rating, int,>
            ,<Product_Category, varchar(50),>)
-");
+");*/
 
 
             }
