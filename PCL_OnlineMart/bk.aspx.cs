@@ -21,7 +21,7 @@ namespace PCL_OnlineMart
             string CS = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
             using (SqlConnection con = new SqlConnection(CS))
             {
-
+                /*
                 SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[Products]
            ([PID]
            ,[Product_Name]
@@ -35,16 +35,17 @@ namespace PCL_OnlineMart
            ,[Rating]
            ,[Product_Category])
      VALUES
-           ('"+TextBox1.Text+"', '"+TextBox2.Text+"','"++"','"+.Text+"'
-           ,<Product_Description, varchar(max),>
-           ,<Actual_Price, int,>
-           ,<Disocount_Percent, int,>
-           ,<Final_Price, int,>
-           ,<Delivery_Amount, varchar(50),>
-           ,<Rating, int,>
-           ,<Product_Category, varchar(50),>)
-");
-
+           ('" + TextBox1.Text + "', '" + TextBox2.Text + "','" + TextArea1.InnerText + "', )
+           ,< Product_Description, varchar(max),>
+           ,< Actual_Price, int,>
+           ,< Disocount_Percent, int,>
+           ,< Final_Price, int,>
+           ,< Delivery_Amount, varchar(50),>
+           ,< Rating, int,>
+           ,< Product_Category, varchar(50),>);
+                *
+");`
+                */
 
             }
         }

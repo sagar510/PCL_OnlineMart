@@ -69,8 +69,11 @@
   <ItemGroup>
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\css\vanilla-zoom.min.css" />
     <Content Include="assets\fonts\font-awesome.min.css" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\simple-line-icons.min.css" />
+    <Content Include="assets\fonts\Simple-Line-Icons.svg" />
     <Content Include="assets\img\about\1.jpg" />
     <Content Include="assets\img\about\2.jpg" />
     <Content Include="assets\img\about\3.jpg" />
@@ -93,12 +96,23 @@
     <Content Include="assets\img\portfolio\5-thumbnail.jpg" />
     <Content Include="assets\img\portfolio\6-full.jpg" />
     <Content Include="assets\img\portfolio\6-thumbnail.jpg" />
+    <Content Include="assets\img\star-empty.svg" />
+    <Content Include="assets\img\star-half-empty.svg" />
+    <Content Include="assets\img\star.svg" />
     <Content Include="assets\img\team\1.jpg" />
     <Content Include="assets\img\team\2.jpg" />
     <Content Include="assets\img\team\3.jpg" />
+    <Content Include="assets\img\tech\image1.jpg" />
+    <Content Include="assets\img\tech\image2.jpg" />
+    <Content Include="assets\img\tech\image3.png" />
     <Content Include="assets\img\video.gif" />
     <Content Include="assets\js\agency.js" />
+    <Content Include="assets\js\theme.js" />
+    <Content Include="assets\js\vanilla-zoom.js" />
     <Content Include="bk.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="index.html" />
+    <Content Include="product-page.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +123,13 @@
     <Compile Include="bk.aspx.designer.cs">
       <DependentUpon>bk.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -117,7 +138,12 @@
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
     <Content Include="assets\fonts\fontawesome-webfont.woff2" />
     <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\Simple-Line-Icons.eot" />
+    <Content Include="assets\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="assets\fonts\Simple-Line-Icons.woff" />
+    <Content Include="assets\fonts\Simple-Line-Icons.woff2" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\shawindra - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

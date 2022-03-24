@@ -28,7 +28,7 @@
 
         <asp:Label ID="Label6" runat="server" Text="Product_Description"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <textarea id="TextArea1" cols="20" name="S1" rows="2"></textarea><br /><br />
+        <textarea id="TextArea1" runat="server" cols="20" name="S1" rows="2"></textarea><br /><br />
 
         <asp:Label ID="Label7" runat="server" Text="Actual_Price"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
