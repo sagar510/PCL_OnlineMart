@@ -28,29 +28,30 @@
 
         <asp:Label ID="Label6" runat="server" Text="Product_Description"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <textarea id="TextArea1" runat="server" cols="20" name="S1" rows="2"></textarea><br /><br />
+        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        <br /><br />
 
         <asp:Label ID="Label7" runat="server" Text="Actual_Price"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><br /><br />
+        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox><br /><br />
 
         <asp:Label ID="Label8" runat="server" Text="Discount_Percent"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox><br /><br />
+        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox><br /><br />
 
         <asp:Label ID="Label9" runat="server" Text="Delivery_Amount"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox><br /><br />
+        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox><br /><br />
 
         <asp:Label ID="Label10" runat="server" Text="Rating"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
         
         <br /><br />
 
         <asp:Label ID="Label11" runat="server" Text="Product_Category"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
         <br />
         <br />
         <asp:Button ID="Button1" runat="server" Text="Save" OnClick="Button1_Click" />
