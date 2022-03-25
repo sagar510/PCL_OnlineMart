@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace PCL_OnlineMart
 {
-    public partial class ProductPage1 : System.Web.UI.Page
+    public partial class Trial : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

@@ -123,6 +123,7 @@
     <Content Include="product-page.html" />
     <Content Include="product-pagen.html" />
     <Content Include="ProductPage1.aspx" />
+    <Content Include="Trial.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +149,13 @@
       <DependentUpon>ProductPage1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trial.aspx.cs">
+      <DependentUpon>Trial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Trial.aspx.designer.cs">
+      <DependentUpon>Trial.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\fonts\fontawesome-webfont.eot" />

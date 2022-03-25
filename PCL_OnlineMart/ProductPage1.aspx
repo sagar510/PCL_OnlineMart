@@ -28,7 +28,7 @@
                                 <div class="gallery">
                                     <div id="product-preview" class="vanilla-zoom">
                                         <div class="zoomed-image"></div>
-                                        <div class="sidebar"><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"></div>
+                                        <div class="sidebar"><asp:Image ID="image1" runat="server" class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"/><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"></div>
                                     </div>
                                 </div>
                             </div>
