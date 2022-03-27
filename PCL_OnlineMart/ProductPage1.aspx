@@ -18,8 +18,8 @@
         <section class="clean-block clean-product dark">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info">Product Page</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                    <h2 id="PName" runat="server" class="text-info">Product Page</h2>
+                    <p id="PDescription" runat="server">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
                 </div>
                 <div class="block-content">
                     <div class="product-info">
@@ -28,19 +28,19 @@
                                 <div class="gallery">
                                     <div id="product-preview" class="vanilla-zoom">
                                         <div class="zoomed-image"></div>
-                                        <div class="sidebar"><asp:Image ID="image1" runat="server" class="img-fluid d-block small-preview"/><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"></div>
+                                        <div class="sidebar"><asp:Image ID="image1" runat="server" class="img-fluid d-block small-preview"/></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="info">
-                                    <h3 font-color="green">24 % off</h3>
-                                    <h4><strong>₹ 319.00</strong>    
-                                    </h4><h5><strike>₹ 419.00</strike></h5>
+                                    <h3 font-color="green" id="Discount" runat="server">24 % off</h3>
+                                    <h4><strong id="PActualPrice" runat="server">₹ 319.00</strong>    </h4>
+                                    <strike><h5 id="PFinalPrice" runat="server">₹ 419.00</h5></strike>
                                     <div class="rating"></div>
                                     <div class="price">
                                         
-                                        <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"/><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                        <div class="rating"><asp:Image id="img1" runat="server" src="assets/img/star.svg"/><img src="assets/img/star.svg"/><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                      
                                     </div><button class="btn btn-primary" type="button"><i class="icon-basket"></i>Add to Cart</button>
                                     <div class="summary">
