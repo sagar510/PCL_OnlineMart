@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using System.IO;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+
 
 namespace PCL_OnlineMart
 {
@@ -25,7 +23,7 @@ namespace PCL_OnlineMart
             Stream stream = postedFile.InputStream;
             BinaryReader binaryReader = new BinaryReader(stream);
             byte[] image = binaryReader.ReadBytes((int)stream.Length);
-
+           
 
 
             string CS = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
@@ -36,7 +34,7 @@ namespace PCL_OnlineMart
                     ([PID]
                     ,[Product_Name]
                     ,[Product_Image_Name]
-                    ,[Product_Image_Data]
+                  
                     ,[Product_Description]
                     ,[Actual_Price]
                     ,[Disocount_Percent]
@@ -45,10 +43,21 @@ namespace PCL_OnlineMart
                     ,[Rating]
                     ,[Product_Category])
                     VALUES
-                        ('" + TextBox1.Text + "', '" + TextBox2.Text + "','" + imagename + "','" + image + "','" + TextBox3.Text + "', '" + TextBox4.Text + "','" + TextBox5.Text + "','" + TextBox6.Text + "','" + TextBox7.Text + "','" + TextBox8.Text + "')", con );
+                        ('" + TextBox1.Text + "', '" + TextBox2.Text + "','" + imagename + "','" + TextBox3.Text + "', '" + TextBox4.Text + "','" + TextBox5.Text + "','" + TextBox6.Text + "','" + TextBox7.Text + "','" + TextBox8.Text + "')", con );
+
+                SqlCommand cmd2 = new SqlCommand("spUploadImage",con);
+                cmd2.CommandType = CommandType.StoredProcedure;
+
+                SqlParameter paramImg = new SqlParameter()
+                {
+                    ParameterName = "@ImageData",
+                    Value = image
+                };
+                cmd2.Parameters.Add(paramImg);
 
                 con.Open();
                 cmd.ExecuteNonQuery();
+                cmd2.ExecuteNonQuery();
                 con.Close();
                 
 

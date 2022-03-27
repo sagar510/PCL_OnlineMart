@@ -28,7 +28,7 @@
                                 <div class="gallery">
                                     <div id="product-preview" class="vanilla-zoom">
                                         <div class="zoomed-image"></div>
-                                        <div class="sidebar"><asp:Image ID="image1" runat="server" class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"/><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"></div>
+                                        <div class="sidebar"><asp:Image ID="image1" runat="server" class="img-fluid d-block small-preview"/><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"><img class="img-fluid d-block small-preview" src="assets/img/tech/image1.jpg"></div>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                                     <div class="rating"></div>
                                     <div class="price">
                                         
-                                        <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                        <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"/><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                      
                                     </div><button class="btn btn-primary" type="button"><i class="icon-basket"></i>Add to Cart</button>
                                     <div class="summary">

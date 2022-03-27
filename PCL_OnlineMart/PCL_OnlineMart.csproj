@@ -168,6 +168,7 @@
     <Content Include="assets\fonts\Simple-Line-Icons.woff" />
     <Content Include="assets\fonts\Simple-Line-Icons.woff2" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\sagarpal - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\shawindra - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
