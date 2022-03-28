@@ -113,7 +113,6 @@
     <Content Include="assets\img\tech\image2.jpg" />
     <Content Include="assets\img\tech\image3.png" />
     <Content Include="assets\img\tech\image4.jpg" />
-    <Content Include="assets\img\video.gif" />
     <Content Include="assets\js\agency.js" />
     <Content Include="assets\js\theme.js" />
     <Content Include="assets\js\vanilla-zoom.js" />
@@ -167,7 +166,6 @@
     <Content Include="Popular_Products\assets\img\tech\image2.jpg" />
     <Content Include="Popular_Products\assets\img\tech\image3.png" />
     <Content Include="Popular_Products\assets\img\tech\image4.jpg" />
-    <Content Include="Popular_Products\assets\img\video.gif" />
     <Content Include="Popular_Products\assets\js\agency.js" />
     <Content Include="Popular_Products\assets\js\theme.js" />
     <Content Include="Popular_Products\assets\js\vanilla-zoom.js" />
