@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
+
+    <style>
+        #Button2{
+            margin-bottom: 30px;
+            padding: 10px 20px;
+        }
+    </style>
+
 </head>
 <body>
     <main class="page product-page">
@@ -42,7 +50,16 @@
                                         
                                         <div class="rating"><asp:Image id="img1" runat="server" src="assets/img/star.svg"/><img src="assets/img/star.svg"/><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
                                      
-                                    </div><button class="btn btn-primary" type="button"><i class="icon-basket"></i>Add to Cart</button>
+                                    </div>
+                                    
+                                    <form id="form1" runat="server">
+                                    <button class="btn btn-primary" type="button"><i class="icon-basket"></i>Add to Cart</button>
+                                        <button class="btn btn-primary" type="button">Take on Rent</button>
+                                    
+                                    </form>
+
+
+
                                     <div class="summary">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue nunc, pretium at augue at, convallis pellentesque ipsum. Vestibulum diam risus, sagittis at fringilla at, pulvinar vel risus. Vestibulum dignissim eu nulla eu imperdiet. Morbi mollis tellus a nunc vestibulum consequat. Quisque tristique elit et nibh dapibus sodales. Nam sollicitudin a urna sed iaculis.</p>
                                     </div>

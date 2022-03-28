@@ -3,13 +3,6 @@ using System.IO;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-
 namespace PCL_OnlineMart
 {
     public partial class ProductPage1 : System.Web.UI.Page
@@ -63,5 +56,7 @@ namespace PCL_OnlineMart
 
 
         }
+
+       
     }
 }

@@ -120,8 +120,59 @@
     <Content Include="bk.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="index.html" />
+    <Content Include="payment-page.html" />
+    <Content Include="Popular_Products\assets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Popular_Products\assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Popular_Products\assets\css\vanilla-zoom.min.css" />
+    <Content Include="Popular_Products\assets\fonts\font-awesome.min.css" />
+    <Content Include="Popular_Products\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Popular_Products\assets\fonts\simple-line-icons.min.css" />
+    <Content Include="Popular_Products\assets\fonts\Simple-Line-Icons.svg" />
+    <Content Include="Popular_Products\assets\img\about\1.jpg" />
+    <Content Include="Popular_Products\assets\img\about\2.jpg" />
+    <Content Include="Popular_Products\assets\img\about\3.jpg" />
+    <Content Include="Popular_Products\assets\img\about\4.jpg" />
+    <Content Include="Popular_Products\assets\img\avatars\avatar1.jpg" />
+    <Content Include="Popular_Products\assets\img\avatars\avatar2.jpg" />
+    <Content Include="Popular_Products\assets\img\avatars\avatar3.jpg" />
+    <Content Include="Popular_Products\assets\img\clients\creative-market.jpg" />
+    <Content Include="Popular_Products\assets\img\clients\designmodo.jpg" />
+    <Content Include="Popular_Products\assets\img\clients\envato.jpg" />
+    <Content Include="Popular_Products\assets\img\clients\themeforest.jpg" />
+    <Content Include="Popular_Products\assets\img\header-bg.jpg" />
+    <Content Include="Popular_Products\assets\img\map-image.png" />
+    <Content Include="Popular_Products\assets\img\portfolio\1-full.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\1-thumbnail.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\2-full.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\2-thumbnail.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\3-full.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\3-thumbnail.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\4-full.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\4-thumbnail.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\5-full.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\5-thumbnail.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\6-full.jpg" />
+    <Content Include="Popular_Products\assets\img\portfolio\6-thumbnail.jpg" />
+    <Content Include="Popular_Products\assets\img\scenery\image1.jpg" />
+    <Content Include="Popular_Products\assets\img\scenery\image4.jpg" />
+    <Content Include="Popular_Products\assets\img\scenery\image5.jpg" />
+    <Content Include="Popular_Products\assets\img\scenery\image6.jpg" />
+    <Content Include="Popular_Products\assets\img\star-empty.svg" />
+    <Content Include="Popular_Products\assets\img\star-half-empty.svg" />
+    <Content Include="Popular_Products\assets\img\star.svg" />
+    <Content Include="Popular_Products\assets\img\team\1.jpg" />
+    <Content Include="Popular_Products\assets\img\team\2.jpg" />
+    <Content Include="Popular_Products\assets\img\team\3.jpg" />
+    <Content Include="Popular_Products\assets\img\tech\image1.jpg" />
+    <Content Include="Popular_Products\assets\img\tech\image2.jpg" />
+    <Content Include="Popular_Products\assets\img\tech\image3.png" />
+    <Content Include="Popular_Products\assets\img\tech\image4.jpg" />
+    <Content Include="Popular_Products\assets\img\video.gif" />
+    <Content Include="Popular_Products\assets\js\agency.js" />
+    <Content Include="Popular_Products\assets\js\theme.js" />
+    <Content Include="Popular_Products\assets\js\vanilla-zoom.js" />
+    <Content Include="Popular_Products\ProductPage2.aspx" />
     <Content Include="product-page.html" />
-    <Content Include="product-pagen.html" />
     <Content Include="ProductPage1.aspx" />
     <Content Include="Trial.aspx" />
     <Content Include="Web.config" />
@@ -140,6 +191,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Popular_Products\ProductPage2.aspx.cs">
+      <DependentUpon>ProductPage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Popular_Products\ProductPage2.aspx.designer.cs">
+      <DependentUpon>ProductPage2.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProductPage1.aspx.cs">
       <DependentUpon>ProductPage1.aspx</DependentUpon>
@@ -168,8 +226,18 @@
     <Content Include="assets\fonts\Simple-Line-Icons.woff" />
     <Content Include="assets\fonts\Simple-Line-Icons.woff2" />
     <None Include="packages.config" />
+    <Content Include="Popular_Products\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Popular_Products\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Popular_Products\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Popular_Products\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Popular_Products\assets\fonts\FontAwesome.otf" />
+    <Content Include="Popular_Products\assets\fonts\Simple-Line-Icons.eot" />
+    <Content Include="Popular_Products\assets\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="Popular_Products\assets\fonts\Simple-Line-Icons.woff" />
+    <Content Include="Popular_Products\assets\fonts\Simple-Line-Icons.woff2" />
     <None Include="Properties\PublishProfiles\sagarpal - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\shawindra - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\shawindra - Web Deploy1.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -177,6 +245,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
