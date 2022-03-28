@@ -120,6 +120,7 @@
     <Content Include="Popular-Products\assets\js\theme.js" />
     <Content Include="Popular-Products\assets\js\vanilla-zoom.js" />
     <Content Include="Popular-Products\payment-page.html" />
+    <Content Include="Popular-Products\payment-page.aspx" />
     <Content Include="Popular-Products\ProductPage2.aspx" />
     <Content Include="product-page.html" />
     <Content Include="ProductPage1.aspx" />
@@ -140,6 +141,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Popular-Products\payment-page.aspx.cs">
+      <DependentUpon>payment-page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Popular-Products\payment-page.aspx.designer.cs">
+      <DependentUpon>payment-page.aspx</DependentUpon>
     </Compile>
     <Compile Include="Popular-Products\ProductPage2.aspx.cs">
       <DependentUpon>ProductPage2.aspx</DependentUpon>
