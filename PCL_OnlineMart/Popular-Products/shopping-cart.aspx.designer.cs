@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PCL_OnlineMart
+namespace PCL_OnlineMart.Popular_Products
 {
 
 
-    public partial class Default
+    public partial class shopping_cart
     {
     }
 }

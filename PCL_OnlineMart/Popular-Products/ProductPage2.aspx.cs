@@ -41,9 +41,9 @@ namespace PCL_OnlineMart.Popular_Products
                 {
                     PName.InnerText = sdr["Product_Name"].ToString();
                     PDescription.InnerText = sdr["Product_Description"].ToString();
-                    PActualPrice.InnerText = "₹ " + sdr["Actual_Price"].ToString() + ".00";
+                    PActualPrice.InnerText = "₹" + sdr["Actual_Price"].ToString() + ".00";
                     Discount.InnerText = sdr["Disocount_Percent"].ToString() + " % off";
-                    PFinalPrice.InnerText = "₹ " + sdr["Final_Price"].ToString() + ".00";
+                    PFinalPrice.InnerText = "₹" + sdr["Final_Price"].ToString();
                 }
 
                 con.Close();
@@ -53,7 +53,7 @@ namespace PCL_OnlineMart.Popular_Products
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("payment-page.aspx?Pname="+PName.InnerText + "&Price"+PFinalPrice.InnerText );
         }
     }
 }

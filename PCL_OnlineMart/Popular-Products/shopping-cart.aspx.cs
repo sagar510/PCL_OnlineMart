@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace PCL_OnlineMart
+namespace PCL_OnlineMart.Popular_Products
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class shopping_cart : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
