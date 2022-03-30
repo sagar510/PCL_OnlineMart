@@ -88,8 +88,11 @@ namespace PCL_OnlineMart
 
                 con.Open();
                 cmd2.ExecuteNonQuery();
+
                 con.Close();
-                
+
+
+                Response.Write("<script>alert('Data Saved in Data Base Sucessfully');</script>");
 
             }
         }
