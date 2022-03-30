@@ -49,8 +49,7 @@
                                     
                                     <form id="form1" runat="server">
                                     <button class="btn btn-primary" type="button"><i class="icon-basket"></i>Add to Cart</button>
-                                        <button class="btn btn-primary" type="button">Take on Rent</button>
-                                    
+                                    <asp:Button ID="Button2" runat="server" class="btn btn-primary" type="button" Text="Take on Rent Now" OnClick="Button2_Click"/>
                                     </form>
 
 
