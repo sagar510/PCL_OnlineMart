@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bk.aspx" />
-    <Content Include="Default.aspx" />
     <Content Include="Popular-Products\assets\bootstrap\css\bootstrap.min.css" />
     <Content Include="Popular-Products\assets\bootstrap\js\bootstrap.min.js" />
     <Content Include="Popular-Products\assets\css\vanilla-zoom.min.css" />
@@ -136,13 +135,6 @@
     </Compile>
     <Compile Include="bk.aspx.designer.cs">
       <DependentUpon>bk.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Popular-Products\payment-page.aspx.cs">
       <DependentUpon>payment-page.aspx</DependentUpon>
