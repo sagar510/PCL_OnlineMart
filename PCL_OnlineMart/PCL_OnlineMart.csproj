@@ -158,7 +158,6 @@
     <Content Include="Popular-Products\assets\img\tech\image2.jpg" />
     <Content Include="Popular-Products\assets\img\tech\image3.png" />
     <Content Include="Popular-Products\assets\img\tech\image4.jpg" />
-    <Content Include="Popular-Products\assets\img\video.gif" />
     <Content Include="Popular-Products\assets\js\agency.js" />
     <Content Include="Popular-Products\assets\js\theme.js" />
     <Content Include="Popular-Products\assets\js\vanilla-zoom.js" />
@@ -259,10 +258,12 @@
     <Content Include="Popular-Products\assets\fonts\Simple-Line-Icons.ttf" />
     <Content Include="Popular-Products\assets\fonts\Simple-Line-Icons.woff" />
     <Content Include="Popular-Products\assets\fonts\Simple-Line-Icons.woff2" />
+    <None Include="Properties\PublishProfiles\onlinemart - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\sagarpal - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\shawindra - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\shawindra - Web Deploy1.pubxml" />
     <Content Include="Site1.Master" />
+    <None Include="Properties\PublishProfiles\ShawindraTest - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
