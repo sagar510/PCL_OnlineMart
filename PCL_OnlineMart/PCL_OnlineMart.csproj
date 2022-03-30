@@ -122,6 +122,8 @@
     <Content Include="Popular-Products\payment-page.html" />
     <Content Include="Popular-Products\payment-page.aspx" />
     <Content Include="Popular-Products\ProductPage2.aspx" />
+    <Content Include="Popular-Products\shopping-cart.aspx" />
+    <Content Include="Popular-Products\shopping-cart.html" />
     <Content Include="product-page.html" />
     <Content Include="ProductPage1.aspx" />
     <Content Include="Trial.aspx" />
@@ -155,6 +157,13 @@
     </Compile>
     <Compile Include="Popular-Products\ProductPage2.aspx.designer.cs">
       <DependentUpon>ProductPage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Popular-Products\shopping-cart.aspx.cs">
+      <DependentUpon>shopping-cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Popular-Products\shopping-cart.aspx.designer.cs">
+      <DependentUpon>shopping-cart.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProductPage1.aspx.cs">
       <DependentUpon>ProductPage1.aspx</DependentUpon>

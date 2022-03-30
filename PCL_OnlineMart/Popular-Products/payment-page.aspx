@@ -24,12 +24,12 @@
                     <div class="products">
                         <h3 class="title">Checkout</h3>
                         <div class="item">
-                            <span class="price">$200</span>
-                            <p class="item-name">Product 1</p>
+                            <span id="price" runat="server" class="price">$200</span>
+                            <p id="pname" runat="server" class="item-name">Product 1</p>
                             <p class="item-description">Lorem ipsum dolor sit amet</p>
                         </div>
                     
-                        <div class="total"><span>Total</span><span class="price">$320</span></div>
+                        <div class="total"><span>Total</span><p class="price" id="Total" runat="server">$320</p></div>
                     </div>
                     <div class="card-details">
                         <h3 class="title">Credit Card Details</h3>
