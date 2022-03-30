@@ -172,6 +172,7 @@
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Popular-Products\Mens-Silk-kurta.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bk.aspx.cs">
@@ -237,6 +238,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Popular-Products\Mens-Silk-kurta.aspx.cs">
+      <DependentUpon>Mens-Silk-kurta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Popular-Products\Mens-Silk-kurta.aspx.designer.cs">
+      <DependentUpon>Mens-Silk-kurta.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
