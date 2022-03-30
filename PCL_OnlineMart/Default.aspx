@@ -27,8 +27,11 @@
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-button-next"></div>
                         </div>
-                    </div><button class="btn btn-info btn-lg link-primary bg-white bg-gradient" type="button" style="border-radius: 20px;--bs-warning: #fec008;--bs-warning-rgb: 254,192,8;--bs-info: #0dcaf0;--bs-info-rgb: 13,202,240;text-align: center;">Buy Now</button>
-                </div>
+                    </div>
+                    <form id="form1" runat="server">
+                    <asp:Button ID="Button1" runat="server" class="btn btn-info btn-lg link-primary bg-white bg-gradient" type="button" style="border-radius: 20px;--bs-warning: #fec008;--bs-warning-rgb: 254,192,8;--bs-info: #0dcaf0;--bs-info-rgb: 13,202,240;text-align: center;" Text="Buy Now" OnClick="Button1_Click"/>
+                    </form>
+                   </div>
                 <div class="col-auto col-md-4">
                     <h2 class="text-center">Lehenga</h2>
                     <div class="simple-slider">
