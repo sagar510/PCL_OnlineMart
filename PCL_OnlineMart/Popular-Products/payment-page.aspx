@@ -32,7 +32,7 @@
                         <div class="total"><span>Total</span><p class="price" id="Total" runat="server">$320</p></div>
                     </div>
                     <div class="card-details">
-                        <h3 class="title">Credit Card Details</h3>
+                        <h3 class="title">Card Details</h3>
                         <div class="row">
                             <div class="col-sm-7">
                                 <div class="mb-3"><label class="form-label" for="card_holder">Card Holder</label><input class="form-control" type="text" id="card_holder" placeholder="Card Holder" name="card_holder"></div>

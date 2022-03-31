@@ -1,17 +1,21 @@
 ﻿using System;
-using System.IO;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
-namespace PCL_OnlineMart.Popular_Products
+namespace PCL_OnlineMart
 {
-    public partial class ProductPage2 : System.Web.UI.Page
+    public partial class WebForm3 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            int PID = 523;
+            int PID = 10986;
 
             string cs = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
             using (SqlConnection con = new SqlConnection(cs))
@@ -41,19 +45,23 @@ namespace PCL_OnlineMart.Popular_Products
                 {
                     PName.InnerText = sdr["Product_Name"].ToString();
                     PDescription.InnerText = sdr["Product_Description"].ToString();
-                    PActualPrice.InnerText = "₹" + sdr["Actual_Price"].ToString() + ".00";
+                    PActualPrice.InnerText = "₹ " + sdr["Actual_Price"].ToString() + ".00";
                     Discount.InnerText = sdr["Disocount_Percent"].ToString() + " % off";
-                    PFinalPrice.InnerText = "₹"+ sdr["Final_Price"].ToString()+ ".00";
+                    PFinalPrice.InnerText = "₹"+sdr["Final_Price"].ToString()+ ".00";
                 }
 
                 con.Close();
 
+
             }
+
+
+
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("payment-page.aspx?Pname="+PName.InnerText + "&Price="+PFinalPrice.InnerText );
+            Response.Redirect("payment-page.aspx?Pname=" + PName.InnerText + "&Price=" + PFinalPrice.InnerText);
         }
     }
 }
