@@ -51,15 +51,6 @@ namespace PCL_OnlineMart
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Discount;
 
         /// <summary>
-        /// PActualPrice control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl PActualPrice;
-
-        /// <summary>
         /// PFinalPrice control.
         /// </summary>
         /// <remarks>
@@ -67,6 +58,15 @@ namespace PCL_OnlineMart
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl PFinalPrice;
+
+        /// <summary>
+        /// PActualPrice control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl PActualPrice;
 
         /// <summary>
         /// img1 control.

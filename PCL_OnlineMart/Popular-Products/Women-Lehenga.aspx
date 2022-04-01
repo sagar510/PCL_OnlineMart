@@ -33,8 +33,8 @@
                             <div class="col-md-6">
                                 <div class="info">
                                     <h3 font-color="green" id="Discount" runat="server">24 % off</h3>
-                                    <h4><strong id="PActualPrice" runat="server">₹ 319.00</strong>    </h4>
-                                    <strike><h5 id="PFinalPrice" runat="server">₹ 419.00</h5></strike>
+                                    <h4><strong id="PFinalPrice" runat="server">₹ 319.00</strong>    </h4>
+                                    <strike><h5 id="PActualPrice" runat="server">₹ 419.00</h5></strike>
                                     <div class="rating"></div>
                                     <div class="price">
                                         

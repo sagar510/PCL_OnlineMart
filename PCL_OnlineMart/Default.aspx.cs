@@ -14,14 +14,6 @@ namespace PCL_OnlineMart
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/Popular-Products/Mens-Silk-kurta.aspx");
-        }
-
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/Popular-Products/Women-Lehenga.aspx");
-        }
+        
     }
 }
