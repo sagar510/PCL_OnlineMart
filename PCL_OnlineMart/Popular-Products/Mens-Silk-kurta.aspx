@@ -9,12 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
 
-    <style>
-        #Button2{
-            margin-bottom: 30px;
-            padding: 10px 20px;
-        }
-    </style>
+  
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <main class="page product-page">
@@ -38,8 +33,8 @@
                             <div class="col-md-6">
                                 <div class="info">
                                     <h3 font-color="green" id="Discount" runat="server">24 % off</h3>
-                                    <h4><strong id="PActualPrice" runat="server">₹ 319.00</strong>    </h4>
-                                    <strike><h5 id="PFinalPrice" runat="server">₹ 419.00</h5></strike>
+                                    <h4><strong id="PFinalPrice" runat="server">₹ 319.00</strong>    </h4>
+                                    <strike><h5 id="PActualPrice" runat="server">₹ 419.00</h5></strike>
                                     <div class="rating"></div>
                                     <div class="price">
                                         
@@ -49,7 +44,7 @@
                                     
                                     <form id="form1" runat="server">
                                     <button class="btn btn-primary" type="button"><i class="icon-basket"></i>Add to Cart</button>
-                                    <asp:Button ID="Button2" runat="server" class="btn btn-primary" type="button" Text="Take on Rent Now" OnClick="Button2_Click"/>
+                                    <asp:Button ID="Button2" runat="server" style="padding: 10px 20px;margin-bottom: 30px;" class="btn btn-primary" type="button" Text="Take on Rent Now" OnClick="Button2_Click"/>
                                     </form>
 
 

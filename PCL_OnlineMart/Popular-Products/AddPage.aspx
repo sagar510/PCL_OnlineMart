@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Women-Lehenga.aspx.cs" Inherits="PCL_OnlineMart.WebForm4" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="AddPage.aspx.cs" Inherits="PCL_OnlineMart.WebForm5" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
-
-    
+   
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <main class="page product-page">
@@ -44,7 +43,7 @@
                                     
                                     <form id="form1" runat="server">
                                     <button class="btn btn-primary" type="button"><i class="icon-basket"></i>Add to Cart</button>
-                                    <asp:Button ID="Button2" runat="server" style="padding: 10px 20px;margin-bottom: 30px;" class="btn btn-primary" type="button" Text="Take on Rent Now" OnClick="Button2_Click" />
+                                    <asp:Button ID="Button2" runat="server" style="padding: 10px 20px;margin-bottom: 30px;" class="btn btn-primary" type="button" Text="Take on Rent Now" OnClick="Button2_Click"/>
                                     </form>
 
 
