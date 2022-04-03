@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Popular-Products\KENT-GRAND-PURIFIER.aspx" />
     <Content Include="assets1\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets1\bootstrap\js\bootstrap.min.js" />
     <Content Include="assets1\css\Login-Form-Clean.css" />
@@ -174,9 +175,18 @@
     <Content Include="Login.aspx" />
     <Content Include="Popular-Products\Mens-Silk-kurta.aspx" />
     <Content Include="Popular-Products\Women-Lehenga.aspx" />
-    <Content Include="Popular-Products\AddPage.aspx" />
+    <Content Include="Popular-Products\DIKSHA-COLLECTION.aspx" />
+    <Content Include="Popular-Products\asus-labtop.aspx" />
+    <Content Include="Popular-Products\sofa-set.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Popular-Products\KENT-GRAND-PURIFIER.aspx.cs">
+      <DependentUpon>KENT-GRAND-PURIFIER.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Popular-Products\KENT-GRAND-PURIFIER.aspx.designer.cs">
+      <DependentUpon>KENT-GRAND-PURIFIER.aspx</DependentUpon>
+    </Compile>
     <Compile Include="bk.aspx.cs">
       <DependentUpon>bk.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -255,12 +265,26 @@
     <Compile Include="Popular-Products\Women-Lehenga.aspx.designer.cs">
       <DependentUpon>Women-Lehenga.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Popular-Products\AddPage.aspx.cs">
-      <DependentUpon>AddPage.aspx</DependentUpon>
+    <Compile Include="Popular-Products\DIKSHA-COLLECTION.aspx.cs">
+      <DependentUpon>DIKSHA-COLLECTION.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Popular-Products\AddPage.aspx.designer.cs">
-      <DependentUpon>AddPage.aspx</DependentUpon>
+    <Compile Include="Popular-Products\DIKSHA-COLLECTION.aspx.designer.cs">
+      <DependentUpon>DIKSHA-COLLECTION.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Popular-Products\asus-labtop.aspx.cs">
+      <DependentUpon>asus-labtop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Popular-Products\asus-labtop.aspx.designer.cs">
+      <DependentUpon>asus-labtop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Popular-Products\sofa-set.aspx.cs">
+      <DependentUpon>sofa-set.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Popular-Products\sofa-set.aspx.designer.cs">
+      <DependentUpon>sofa-set.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
