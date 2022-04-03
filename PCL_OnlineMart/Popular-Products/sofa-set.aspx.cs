@@ -1,15 +1,14 @@
 ﻿using System;
-using System.IO;
 using System.Configuration;
-using System.Data;
 using System.Data.SqlClient;
+
 namespace PCL_OnlineMart
 {
-    public partial class WebForm5 : System.Web.UI.Page
+    public partial class WebForm8 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            int PID = 11983;
+            int PID = 11980;
 
             string cs = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
             using (SqlConnection con = new SqlConnection(cs))
