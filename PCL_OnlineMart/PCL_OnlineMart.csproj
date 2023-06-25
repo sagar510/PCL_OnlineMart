@@ -315,6 +315,8 @@
     <Content Include="Popular-Products\assets\fonts\Simple-Line-Icons.woff" />
     <Content Include="Popular-Products\assets\fonts\Simple-Line-Icons.woff2" />
     <None Include="Properties\PublishProfiles\onlinemart - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\sagar786-001-site1 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\sagar786-001-site1 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\sagarpal - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\shawindra - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\shawindra - Web Deploy1.pubxml" />
