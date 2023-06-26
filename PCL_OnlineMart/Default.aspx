@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="background: url(&quot;assets/img/Background%201.jpg&quot;) center / cover no-repeat;height: 550px;"><input type="search" style="margin: 80px;border-radius: 20px;transform: translate(29px) scale(1.50);opacity: 0.87;border-color: var(--bs-cyan);" placeholder="Search Anything...">
-        <h2 style="margin: 70px;color: #6c530e;">First Use Then Buy</h2><button class="btn btn-info border rounded-pill" type="button" onclick="window.open('starting-page.aspx')" style="margin: 0px 70px;transform: translate(50px);opacity: 0.75;"><strong>Start Shopping</strong></button>
+        <h2 style="margin: 70px;color: #6c530e;"></h2><button class="btn btn-info border rounded-pill" type="button" onclick="window.open('starting-page.aspx')" style="margin: 0px 70px;transform: translate(50px);opacity: 0.75;"><strong>Start Shopping</strong></button>
     </div>
     <div>
         <div class="container">
@@ -63,7 +63,7 @@
                         </div>
                     </div><button class="btn btn-info btn-lg link-primary bg-white bg-gradient" type="button" onclick="window.open('Popular-Products/DIKSHA-COLLECTION.aspx')" style="border-radius: 20px;--bs-warning: #fec008;--bs-warning-rgb: 254,192,8;--bs-info: #0dcaf0;--bs-info-rgb: 13,202,240;text-align: center;">Rent Now</button>
                 </div>
-            </div>s
+            </div>
             <div class="row">
                 <div class="col-auto col-md-4">
                     <h2 class="text-center">Laptop</h2>

@@ -61,7 +61,7 @@
                         </div>
                     </div><button class="btn btn-info btn-lg link-primary bg-white bg-gradient" type="button" onclick="window.open('Popular-Products/DIKSHA-COLLECTION.aspx')" style="border-radius: 20px;--bs-warning: #fec008;--bs-warning-rgb: 254,192,8;--bs-info: #0dcaf0;--bs-info-rgb: 13,202,240;text-align: center;">Rent Now</button>
                 </div>
-            </div>s
+            </div>
             <div class="row">
                 <div class="col-auto col-md-4">
                     <h2 class="text-center">Laptop</h2>

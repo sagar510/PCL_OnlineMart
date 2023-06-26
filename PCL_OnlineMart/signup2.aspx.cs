@@ -9,6 +9,10 @@ namespace PCL_OnlineMart
 {
     public partial class WebForm4 : System.Web.UI.Page
     {
-        
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+       
+        }
     }
 }
