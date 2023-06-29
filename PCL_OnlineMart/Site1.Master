@@ -29,14 +29,14 @@
         <div>
         <div>
             <nav class="navbar navbar-light navbar-expand-lg bg-info navigation-clean-button">
-        <div class="container"><a class="navbar-brand" href="/Default.aspx">Online Mart</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand" href="/Default.aspx">Wedding Kart</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Take on Rent</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">My Order</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Customer Care</a></li>
                     
-                </ul><span class="navbar-text actions"> <a class="login" href="Login.aspx">Log In</a><a class="login" href="signup2.aspx">New User</a></span>
+                </ul><span class="navbar-text actions"> <a class="login" href="Login.aspx">Log In</a><a class="login" href="signup3.aspx">New User</a></span>
             </div>
         </div>
     </nav>
@@ -67,8 +67,8 @@
                     </ul>
                 </div>
                 <div class="col-md-6 item text">
-                    <h3>Online Mart</h3>
-                    <p>The online mart is bringing 3 main features in single platform i.e. buying, selling and renting. Also you can try the specific range of products before buying them.</p>
+                    <h3>Wedding Kart</h3>
+                    <p>The Wedding Kart is bringing 3 main features in single platform i.e. buying, selling and renting. Also you can try the specific range of products before buying them.</p>
                 </div>
                 <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
             </div>
