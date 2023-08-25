@@ -13,8 +13,6 @@ namespace PCL_OnlineMart
         int AP, D,FP;
         
 
-
-
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -90,7 +88,6 @@ namespace PCL_OnlineMart
                 cmd2.ExecuteNonQuery();
 
                 con.Close();
-
 
                 Response.Write("<script>alert('Data Saved in Data Base Sucessfully');</script>");
 
